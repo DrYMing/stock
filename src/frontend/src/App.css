@@ -1,0 +1,77 @@
+/* App.css - 自定义样式 */
+@reference "tailwindcss";
+
+/* 全局样式 */
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1400px;
+}
+
+/* 卡片样式 */
+.card {
+  @apply bg-white rounded-lg shadow-md p-6;
+}
+
+/* 按钮样式 */
+.btn {
+  @apply px-4 py-2 rounded-lg transition-colors duration-200;
+}
+
+.btn-primary {
+  @apply bg-blue-500 text-white hover:bg-blue-600;
+}
+
+.btn-secondary {
+  @apply bg-gray-200 text-gray-700 hover:bg-gray-300;
+}
+
+/* 表格样式 */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+table thead th {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+}
+
+/* 加载动画 */
+.loading {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(59, 130, 246, 0.3);
+  border-radius: 50%;
+  border-top-color: #3b82f6;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  table {
+    font-size: 0.875rem;
+  }
+}

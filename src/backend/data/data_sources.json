@@ -1,0 +1,65 @@
+{
+  "sources": [
+    {
+      "name": "weipan",
+      "display_name": "尾盘数据",
+      "file_path": "data/尾盘/数据汇总.csv",
+      "data_file": "src/backend/data/weipan_stock_returns.json",
+      "stats": {
+        "total_stocks": 255,
+        "avg_return": 10.98
+      }
+    },
+    {
+      "name": "dibu",
+      "display_name": "底部数据",
+      "file_path": "data/底部/汇总.csv",
+      "data_file": "src/backend/data/dibu_stock_returns.json",
+      "stats": {
+        "total_stocks": 444,
+        "avg_return": 4.05
+      }
+    },
+    {
+      "name": "redian",
+      "display_name": "热点数据",
+      "file_path": "data/热点/汇总.csv",
+      "data_file": "src/backend/data/redian_stock_returns.json",
+      "stats": {
+        "total_stocks": 426,
+        "avg_return": 4.21
+      }
+    },
+    {
+      "name": "jiudian",
+      "display_name": "九点数据",
+      "file_path": "data/九点/汇总.csv",
+      "data_file": "src/backend/data/jiudian_stock_returns.json",
+      "stats": {
+        "total_stocks": 261,
+        "avg_return": 1.28
+      }
+    },
+    {
+      "name": "heima",
+      "display_name": "黑马数据",
+      "file_path": "data/黑马/汇总.csv",
+      "data_file": "src/backend/data/heima_stock_returns.json",
+      "stats": {
+        "total_stocks": 316,
+        "avg_return": 7.73
+      }
+    },
+    {
+      "name": "tupo",
+      "display_name": "突破数据",
+      "file_path": "data/突破/汇总.csv",
+      "data_file": "src/backend/data/tupo_stock_returns.json",
+      "stats": {
+        "total_stocks": 312,
+        "avg_return": 3.8
+      }
+    }
+  ],
+  "default_source": "weipan"
+}
