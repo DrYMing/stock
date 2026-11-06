@@ -6,8 +6,8 @@
       "file_path": "data/尾盘/数据汇总.csv",
       "data_file": "src/backend/data/weipan_stock_returns.json",
       "stats": {
-        "total_stocks": 255,
-        "avg_return": 10.98
+        "total_stocks": 260,
+        "avg_return": 10.77
       }
     },
     {

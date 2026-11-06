@@ -360,5 +360,5 @@ if __name__ == '__main__':
     print("  GET /api/stocks/<code> - 股票详情")
     print("  GET /api/stocks/<code>/returns - 收益率曲线")
     print("  GET /api/top - 表现最好/最差的股票")
-    print("\n服务器运行在: http://localhost:5001")
-    app.run(debug=True, host='0.0.0.0', port=5001)
+    print("\n服务器运行在: http://localhost:8007")
+    app.run(debug=True, host='0.0.0.0', port=8007)

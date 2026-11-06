@@ -2,7 +2,8 @@
  * API 客户端
  */
 
-const API_BASE_URL = 'http://localhost:5001/api';
+const API_HOST = window.location.hostname;
+const API_BASE_URL = `http://${API_HOST}:8007/api`;
 
 export const api = {
   /**
